@@ -5,6 +5,23 @@ In recent years, there has been a significant improvement in the quality of mobi
 
 ![image](https://user-images.githubusercontent.com/43838718/108750258-d1172100-7566-11eb-906f-e0d3a4f8d907.png)
 
+## Model Log
+
+After training the model primarily on iPhone images for 10000 iterations, the log obtained is as follows:
+
+| Type | Metrics |
+| ---- | ---- |
+| discriminator accuracy | train: 0.537, test: 0.5386 |
+| generator losses | content: 7.315, color: 108.8, texture: -34.45, total variation: 0.00247 |
+| General | psnr: 20.23, ms-ssim: 0.9161 |
+
+## Visual Results
+
+![predict_1_before_after](https://user-images.githubusercontent.com/43838718/115104326-50c4d900-9f75-11eb-8a12-825847d42123.png)
+![predict_5_before_after](https://user-images.githubusercontent.com/43838718/115104329-54586000-9f75-11eb-94a3-341edd47732f.png)
+![predict_6_before_after](https://user-images.githubusercontent.com/43838718/115104331-56222380-9f75-11eb-9670-9e242d87f2ce.png)
+![predict_11_before_after](https://user-images.githubusercontent.com/43838718/115104334-57ebe700-9f75-11eb-8f32-c8fdde319dfd.png)
+
 ## Reference
 
 This notebook contains references for code from this repository: https://github.com/aiff22/DPED.git
