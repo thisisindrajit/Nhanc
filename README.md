@@ -5,6 +5,12 @@ In recent years, there has been a significant improvement in the quality of mobi
 
 ![image](https://user-images.githubusercontent.com/43838718/108750258-d1172100-7566-11eb-906f-e0d3a4f8d907.png)
 
+## Dataset
+
+A smaller version of the original DPED dataset was used. 
+
+Link to the dataset - https://drive.google.com/drive/folders/1x5-JNsSG0XA0SelKrkBd6w5S_6G6huYk?usp=sharing
+
 ## Model Log
 
 After training the model primarily on iPhone images for 10000 iterations, the log obtained is as follows:
